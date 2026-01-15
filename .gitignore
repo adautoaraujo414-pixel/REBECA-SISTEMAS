@@ -1,0 +1,54 @@
+# Dependências
+node_modules/
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+
+# Sessão do WhatsApp
+whatsapp-session/
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Backups
+backups/
+*.sql
+*.sql.gz
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build
+dist/
+build/
+admin/dist/
+admin/node_modules/
+
+# Testes
+coverage/
+.nyc_output/
+junit.xml
+
+# Temporários
+tmp/
+temp/
+*.tmp
+
+# Arquivos de áudio temporários
+/tmp/recording_*
+/tmp/resposta_*
